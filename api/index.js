@@ -33,7 +33,7 @@ app.use('/uploads', express.static(__dirname + '/uploads'))
 app.use(
 	cors({
 		credentials: true,
-		origin: 'http://localhost:5173',
+		origin: 'https://roomradar-rd4s0egrn-sayan-chandas-projects.vercel.app/',
 	})
 )
 
